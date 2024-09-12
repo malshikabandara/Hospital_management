@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.main{
+    width: 1500px;
+    background-image: linear-gradient(to top,rgba(0,0,0,0)50%,rgba(0,0,0,0)50%),url(../images/1234567890.jpg);
+    background-position: center;
+    background-size: cover;
+    height:115vh;
+    background-color: aqua;
+}
+
+.icon{
+    width:800px;
+    float:left;
+    height: 70px;
+
+}
+.logo{
+    color:green;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.nav{
+    width:1300px;
+    float:center;
+    height: 70px;
+}
+ul{
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+    float:center;
+    font-weight: bold;
+    
+}
+ul li a{
+    color:rgb(11, 11, 11);
+    font-size: 18px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    padding: 7px 10px;
+
+}
+nav{
+    color:black;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.para{
+    width: 100%;
+    position: absolute;
+    color: rgb(16, 7, 57);
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.para h3{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+}
+button{
+    width:200px;
+    padding:15px;
+    margin:20px 5px;
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    font-style: italic;
+}
+.sec1 h3{
+    width:17%;
+    margin: 20px;
+    padding: left;
+    font-weight: bold;
+    font-size: 25px;
+    color:black;
+    border: 7px solid black;
+    border-color: black;
+    text-align: center;
+}
+.sec1 img {
+    max-width: 400px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 20px ;
+    border:3px solid white;
+}
+.sec1 p{
+    padding:5px;
+    font-size: 20px;
+    color: rgb(4, 2, 51);
+    text-align: justify;
+}
+.sec1 ol{
+    padding:5px;
+    font-size: 17px;
+}
+.sec1 ol a{
+    padding:10px;
+    font-size: 10px;
+}
+.sec2 h3{
+    width:17%;
+    margin: 20px;
+    padding: left;
+    font-weight: bold;
+    font-size: 25px;
+    color:black;
+    border: 7px solid black;
+    border-color: black;
+    text-align: center;
+}
+.sec2 p{
+    padding:5px;
+    font-size: 20px;
+    color: rgb(4, 2, 51);
+    text-align: justify;
+}
+.sec2 img {
+    max-width: 400px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 20px ;
+    border:3px solid white;
+}
+.sec2 ol{
+    padding:5px;
+    font-size: 17px;
+}
+.sec2 ol a{
+    padding:10px;
+    font-size: 10px;
+}
+.sec3 h3{
+    width:17%;
+    margin: 20px;
+    padding: left;
+    font-weight: bold;
+    font-size: 25px;
+    color:black;
+    border: 7px solid black;
+    border-color: black;
+    text-align: center;
+}
+.sec3 img {
+    max-width: 400px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 20px ;
+    border:3px solid white;
+}
+.sec3 p{
+    padding:5px;
+    font-size: 20px;
+    color: rgb(4, 2, 51);
+    text-align: justify;
+}
+footer{
+    background: rgb(19, 19, 19);
+    padding-top: 100px;
+    text-align: left;
+
+}
+.container{
+    width: 2100px;
+    margin:auto;
+    display:flex;
+    text-align: left;
+    
+    
+}
+footer{
+    text-align: center;
+    padding: 1px;
+    background: #3a8777ca;
+    color:rgb(6, 47, 35);
+    position:fixed;
+    width: 100%;
+    bottom: 0%; 
+    height: 170px; 
+    font-weight: bold;  
+}
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    header {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+
+}

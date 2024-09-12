@@ -1,0 +1,136 @@
+#sampleTable{
+    border: 5%;
+
+}
+caption{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.blue{
+    background-color:rgb(175, 215, 175);
+    color:rgb(19, 18, 18);
+    text-align: justify;
+
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    border: 5px;
+    border-color: black;
+}
+
+table th,table td{
+    border: 4px;;
+    text-align: center;
+    border-bottom: 10px solid rgb(0, 20, 22);
+}
+
+tbody tr{
+
+    border-bottom: 10px solid rgb(0, 20, 22);
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(100, 216, 248);
+}
+
+.branches {
+    margin-bottom: 40px;
+}
+
+.branch {
+    margin-bottom: 30px;
+}
+
+.branch h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.branch img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.branch p {
+    margin-bottom: 10px;
+}
+
+.branch .map {
+    margin-top: 10px;
+}
+.summary-table {
+    margin-bottom: 40px;
+}
+
+.summary-table h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tfoot td {
+    text-align: center;
+    padding: 1px;
+    background: #09201bca;
+    color:rgb(236, 252, 247);
+    position:fixed;
+    width: 100%;
+    bottom: 0%; 
+    height: 20px; 
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+        table thead,tbody,tfoot,tr,td,th{
+            display: block;
+            width:100%;
+    
+        }
+      table thead{
+        display:none;
+        } 
+      table tr{
+        border-top: 2px solid rgb(64, 181, 231);
+        border-bottom: none;
+        
+        } 
+    .title{
+        font-weight: bold;
+    }
+    td::before{
+        content:attr(data-lable);
+        font-weight: bold;
+        text-align: left ;
+    }
+    header h1{
+        font-weight: bold;
+        text-align: left ;
+        display: block;
+        width:100%;
+    }
+    header nav{
+        font-weight: bold;
+        text-align: left ;
+    }
+    }

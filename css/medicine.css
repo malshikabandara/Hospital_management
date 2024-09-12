@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e6e9ee;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.container{
+    color: rgb(11, 7, 7);
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+
+form{
+    max-width: 1000px;
+    height: 980px;
+    margin: auto;
+    padding: 20px;
+    background-color:rgb(233, 233, 227);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+h3{
+    text-decoration: underline;
+    color: rgb(5, 5, 76);
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.name{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#f_name{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#s_name{
+    width: 27%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Date{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#C_num{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#address{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Email{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#S_Address{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#C_Name{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#S-P{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Postal_Zip-Code{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Doss_Number{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Prescribing_Doctors_Name{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Medicine-Name{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#Doss-Strength{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#Quantity{
+    width: 35%;
+    height: 9px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.Radio{
+    width: 50%;
+    height: 9px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgb(7, 7, 97);
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(8, 116, 116);
+    color: white;
+    font-size: 18px;
+    align-items: center;
+}
+

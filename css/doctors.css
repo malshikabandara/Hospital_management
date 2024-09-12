@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f1f9;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 2000px;
+    margin: 0 auto;
+    color:#0f0fa0
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+button{width:80px;
+text-align: center;
+border-radius: 25px;
+color: rgb(9, 9, 9);
+font-size: 15px;
+cursor: pointer;
+font-weight: bold;
+background-color: transparent;
+font-style: italic;
+background-color: rgb(228, 189, 224);
+}
+
+.doc {
+    background-color: #c2c3c4;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height:400px;
+}
+
+.doc img {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    display: block;
+}
+
+.info {
+    padding: 15px;
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #555;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.info button{
+    
+    width:80px;
+    text-align: center;
+    border-radius: 25px;
+    color: rgb(9, 9, 9);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    font-style: italic;
+    background-color: rgb(218, 218, 223);
+}
+
+.doc:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .info h3 {
+        font-size: 1em;
+    }
+
+    .info p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    .info h3 {
+        font-size: 0.9em;
+    }
+
+    .info p {
+        font-size: 0.8em;
+    }
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    min-width: 400px; /* Ensures the table has a minimum width for better readability */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    table {
+        min-width: 300px; /* Adjusts the minimum width for smaller devices */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    th, td {
+        padding: 8px;
+        font-size: 0.8em;
+    }
+
+    table {
+        min-width: 280px; /* Further reduces minimum width for mobile devices */
+    }
+}
